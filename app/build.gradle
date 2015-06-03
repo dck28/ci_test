@@ -28,6 +28,6 @@ dependencies {
 //
 task printEnvVars {
     doLast {
-        println '$TOP_SECRET'
+        println "$System.env.TOP_SECRET"
     }
 }
